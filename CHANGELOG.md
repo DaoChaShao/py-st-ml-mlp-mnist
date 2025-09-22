@@ -5,6 +5,10 @@
 
 ### Features
 
+- add timer and visualization functions to helper.py ([9500062](https://github.com///commit/950006233e25a6d3f442a087057f0a7967becec6))
+- add introduction section and informational message to home.py ([3d997d2](https://github.com///commit/3d997d2b77a3dd19ce5048e56080331781434fc7))
+- enhance application information display in about.py ([0273ac1](https://github.com///commit/0273ac157b523d1fbf7c9bd8ca4d895d9d8b2cf9))
+- add CHANGELOG.md to document project updates and features ([3e7f1c9](https://github.com///commit/3e7f1c987ed3a84e7c8e3b739f28a9bd8906b9d1))
 - add requirements.txt with project dependencies ([cfbf721](https://github.com///commit/cfbf72170a0e7865564426db2a2493802dc56c43))
 - add Chinese README.md for project introduction and usage instructions ([dd81ae7](https://github.com///commit/dd81ae7bb217163e6010ce2b1bbdf7030f3743bf))
 - add README.md with project introduction, features, and usage instructions ([6fda8d0](https://github.com///commit/6fda8d0412d89b2fc1de24afad35fe189f3533f6))
