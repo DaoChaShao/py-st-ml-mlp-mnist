@@ -5,6 +5,11 @@
 
 ### Features
 
+- add initial train.py file with metadata and description ([348a207](https://github.com///commit/348a207eead29ea1b9ce91aff9d508c2b2d8cfba))
+- implement data preparation settings and Mnist data loading functionality ([95c9023](https://github.com///commit/95c90231af561a9add46684911e699634cad58a3))
+- update layout configuration to include training and testing pages ([7c0aabc](https://github.com///commit/7c0aabc91128ca846cb5046bbf8a8a357f051fac))
+- implement main function to configure page layout and set pages ([3f6d873](https://github.com///commit/3f6d873db7b72510f7a487dd9b6a4434baeb1329))
+- update CHANGELOG.md with recent feature additions ([01a8271](https://github.com///commit/01a82718675d3a22de0cd0f335ace75a126e38c4))
 - add timer and visualization functions to helper.py ([9500062](https://github.com///commit/950006233e25a6d3f442a087057f0a7967becec6))
 - add introduction section and informational message to home.py ([3d997d2](https://github.com///commit/3d997d2b77a3dd19ce5048e56080331781434fc7))
 - enhance application information display in about.py ([0273ac1](https://github.com///commit/0273ac157b523d1fbf7c9bd8ca4d895d9d8b2cf9))
@@ -22,4 +27,8 @@
 - add __init__.py with main function template ([fca0f2e](https://github.com///commit/fca0f2ea5eb9cf4dd233d2c5da427631368558b2))
 - add .gitignore to exclude IDE, environment, and cache files ([dbf0c30](https://github.com///commit/dbf0c309a2ec724b92909537a77369343ddd9142))
 - add .gitignore to exclude IDE and environment files ([b0c329b](https://github.com///commit/b0c329bf4e6fab2c003000bf4f44ab345aed3729))
+
+### Bug Fixes
+
+- downgrade numpy version to 1.26.4 for compatibility ([4773d72](https://github.com///commit/4773d729deb1631094565fdf8192ebd2c19a556f))
 
