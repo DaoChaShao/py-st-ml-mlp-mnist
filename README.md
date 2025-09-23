@@ -36,17 +36,15 @@ The application comes with a built-in MNIST Handwritten Digits dataset, suitable
 
 + Users can upload their own CSV datasets for training, provided the structure follows feature columns + label column.
 
-**FEATURES**
+**QUICK START**
 ---
 
-- **Data Loading & Preprocessing:** Load MNIST dataset and preprocess for MLP training (flattening and normalization).
-- **Model Training:** Train a Multi-Layer Perceptron with configurable epochs, batch size, and validation split.
-- **Real-time Training Metrics:** Monitor loss, accuracy, precision, recall, and AUC for both training and validation
-  sets.
-- **Model Testing:** Evaluate model performance with accuracy and R² score on the test set.
-- **Real-time Digit Recognition:** Draw digits on a canvas and get immediate predictions using the trained model.
-- **Visualization Tools:** Scatter plots and decision boundary visualization for 2D/3D datasets (for experiments beyond
-  MNIST).
+1. Clone the repository to your local machine.
+2. Install the required dependencies with the command `pip install -r requirements.txt`.
+3. Run the application with the command `streamlit run main.py`.
+4. You can also try the application by visiting the following
+   link:  
+   [![Static Badge](https://img.shields.io/badge/Open%20in%20Streamlit-Daochashao-red?style=for-the-badge&logo=streamlit&labelColor=white)](https://mlp-mnist.streamlit.app/)
 
 **WEB DEVELOPMENT**
 ---
