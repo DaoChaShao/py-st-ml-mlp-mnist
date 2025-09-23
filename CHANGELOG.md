@@ -5,6 +5,7 @@
 
 ### Features
 
+- add runtime.txt to specify Python version 3.12.18 ([6403b74](https://github.com///commit/6403b74a09d26749fac2f1dd906f6c5362f7a890))
 - enhance Chinese README.md with detailed descriptions of the built-in MNIST dataset for supervised learning ([2d08894](https://github.com///commit/2d08894d078354a09b15af47afa52ca648deeb24))
 - update README.md to include detailed description of the built-in MNIST dataset for supervised learning ([ce48799](https://github.com///commit/ce48799a77cc86d0b453155b022d551dc5cbbcb8))
 - enhance Chinese README.md with detailed descriptions of application functionalities and features ([f0f7749](https://github.com///commit/f0f77498c31a39ff1762851571d6ac7da25c1e6d))
@@ -51,6 +52,7 @@
 
 ### Chore
 
+- update CHANGELOG.md to reflect recent updates and bug fixes ([a64fe0a](https://github.com///commit/a64fe0a27e2eeb77e6026d211465f0fc362c5c80))
 - update CHANGELOG.md to include recent enhancements to README files ([4f97f53](https://github.com///commit/4f97f53001461f5b31f0c5a507220fafa35fcb1b))
 - update CHANGELOG.md to include recent enhancements to README files and application descriptions ([721e409](https://github.com///commit/721e409fb2a8c5da518a82da3e3c4100358f2288))
 - update CHANGELOG.md to include recent feature additions and bug fixes ([a242808](https://github.com///commit/a242808907cd7fe068467a74e1dce85a26fc1451))
