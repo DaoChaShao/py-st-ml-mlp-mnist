@@ -52,6 +52,8 @@
 
 ### Chore
 
+- delete the file of runtime.txt ([8291388](https://github.com///commit/8291388495ba501d0823ed514f8e78a7e5156500))
+- update CHANGELOG.md to include addition of runtime.txt for Python version specification ([8da40d0](https://github.com///commit/8da40d00c834b33c3e03e74f21f25698e6162ccf))
 - update CHANGELOG.md to reflect recent updates and bug fixes ([a64fe0a](https://github.com///commit/a64fe0a27e2eeb77e6026d211465f0fc362c5c80))
 - update CHANGELOG.md to include recent enhancements to README files ([4f97f53](https://github.com///commit/4f97f53001461f5b31f0c5a507220fafa35fcb1b))
 - update CHANGELOG.md to include recent enhancements to README files and application descriptions ([721e409](https://github.com///commit/721e409fb2a8c5da518a82da3e3c4100358f2288))
