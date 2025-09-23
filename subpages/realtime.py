@@ -7,13 +7,13 @@
 # @Desc     :
 
 from cv2 import cvtColor, resize, COLOR_BGR2GRAY, INTER_AREA
-from keras.models import load_model
 from numpy import uint8
 from os import path
 from streamlit import (empty, sidebar, subheader, session_state, button,
                        spinner, rerun, slider, selectbox, columns, image)
 from streamlit_drawable_canvas import st_canvas
 from subpages.train import MODEL_PATH
+from tensorflow.keras.models import load_model
 
 from utils.helper import Timer
 
