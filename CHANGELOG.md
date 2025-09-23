@@ -5,6 +5,7 @@
 
 ### Features
 
+- implement model training interface with data preprocessing and metrics visualization ([a53e4f1](https://github.com///commit/a53e4f19d5747d8aa5ac2968e6f0c58467391007))
 - add initial train.py file with metadata and description ([348a207](https://github.com///commit/348a207eead29ea1b9ce91aff9d508c2b2d8cfba))
 - implement data preparation settings and Mnist data loading functionality ([95c9023](https://github.com///commit/95c90231af561a9add46684911e699634cad58a3))
 - update layout configuration to include training and testing pages ([7c0aabc](https://github.com///commit/7c0aabc91128ca846cb5046bbf8a8a357f051fac))
@@ -31,4 +32,8 @@
 ### Bug Fixes
 
 - downgrade numpy version to 1.26.4 for compatibility ([4773d72](https://github.com///commit/4773d729deb1631094565fdf8192ebd2c19a556f))
+
+### Chore
+
+- update CHANGELOG.md with recent feature additions and bug fixes ([4e867f4](https://github.com///commit/4e867f4fc4c53927525dcf85bc322cacd81aabee))
 
