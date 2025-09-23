@@ -56,6 +56,12 @@
 
 ### Chore
 
+- replace keras import with tensorflow.keras in train.py ([6602a6c](https://github.com///commit/6602a6ca000ace1b7e9c9186a7b7b11aef0500b2))
+- replace keras import with tensorflow.keras in test.py ([0bc86f7](https://github.com///commit/0bc86f79acfb50f9823a002fc0ef2cfb6ec14b66))
+- update opencv-python to opencv_python_headless in requirements.txt ([915fdc5](https://github.com///commit/915fdc596c52d3286599367bb6d993e31c0759b9))
+- replace keras import with tensorflow.keras in realtime.py ([e0e6ece](https://github.com///commit/e0e6eced9c66b07c9d18cc0fe38b9fc0b4d8d86b))
+- remove unused import of DataFrame from preparation.py ([ff0492b](https://github.com///commit/ff0492b2adffc46f6d83506904b388212e518393))
+- update CHANGELOG.md to reflect recent changes in home.py ([1ba514b](https://github.com///commit/1ba514bedeec4539ce11f658ae2bfc15d82812e7))
 - update CHANGELOG.md to reflect recent changes in requirements.txt ([bc26020](https://github.com///commit/bc26020e3dabceec9af69fa4bb756aa51efa68aa))
 - update CHANGELOG.md to reflect addition of numpy version 1.26.4 in requirements.txt ([aa2791d](https://github.com///commit/aa2791dff7882bcbeba2ce2e88e1f508bb383dfe))
 - update CHANGELOG.md to include addition of numpy version 2.3.3 in requirements.txt ([ff71af5](https://github.com///commit/ff71af5168ff5374aeb849d408dd4f3d4b51c9a8))
