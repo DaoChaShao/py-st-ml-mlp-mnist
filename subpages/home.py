@@ -13,4 +13,8 @@ empty_message.info("Please check the details at the different pages of core func
 
 title("ML - Make Moons")
 with expander("**INTRODUCTION**", expanded=True):
-    caption("+")
+    caption("+ 📂 Load MNIST dataset and preprocess for model training.")
+    caption("+ 🧠 Train a Multi-Layer Perceptron with custom epochs and batch size.")
+    caption("+ 📊 Visualize training metrics in real-time (loss, accuracy, precision, recall, AUC).")
+    caption("+ 🧪 Test the trained model on the MNIST test dataset.")
+    caption("+ ✏️ Draw digits on a canvas and get instant predictions.")
