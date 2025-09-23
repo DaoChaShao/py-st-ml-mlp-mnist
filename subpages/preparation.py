@@ -6,7 +6,6 @@
 # @File     :   preparation.py
 # @Desc     :
 
-from pandas import DataFrame
 from streamlit import (empty, sidebar, subheader, session_state, button,
                        spinner, rerun, columns, slider, caption,
                        markdown, image)
