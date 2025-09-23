@@ -5,6 +5,7 @@
 
 ### Features
 
+- update numpy version to 1.26.4 in requirements.txt ([1f9a1a6](https://github.com///commit/1f9a1a67a911f20d96ccf1c5e5e90cdad4e83a64))
 - add numpy version 2.3.3 to requirements.txt ([9795775](https://github.com///commit/97957751475997fc622fed697283bf8ddb92a4d7))
 - add runtime.txt to specify Python version 3.12.18 ([6403b74](https://github.com///commit/6403b74a09d26749fac2f1dd906f6c5362f7a890))
 - enhance Chinese README.md with detailed descriptions of the built-in MNIST dataset for supervised learning ([2d08894](https://github.com///commit/2d08894d078354a09b15af47afa52ca648deeb24))
@@ -53,6 +54,7 @@
 
 ### Chore
 
+- update CHANGELOG.md to include addition of numpy version 2.3.3 in requirements.txt ([ff71af5](https://github.com///commit/ff71af5168ff5374aeb849d408dd4f3d4b51c9a8))
 - update CHANGELOG.md to reflect recent changes including deletion of runtime.txt and addition of Python version specification ([86e2c3a](https://github.com///commit/86e2c3ac39b46d26a019698e0379d6a827371432))
 - delete the file of runtime.txt ([8291388](https://github.com///commit/8291388495ba501d0823ed514f8e78a7e5156500))
 - update CHANGELOG.md to include addition of runtime.txt for Python version specification ([8da40d0](https://github.com///commit/8da40d00c834b33c3e03e74f21f25698e6162ccf))
