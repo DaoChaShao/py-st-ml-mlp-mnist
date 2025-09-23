@@ -71,9 +71,9 @@ with sidebar:
                 rerun()
         else:
             print(type(session_state["X_train_flat"]), type(session_state["y_train_cat"]))
-            print(type(session_state["X_test_flat"]), type(session_state["y_test_cat"]))
+            print(type(session_state["X_test_flat"]))
             print(session_state["X_train_flat"].shape, session_state["y_train_cat"].shape)
-            print(session_state["X_test_flat"].shape, session_state["y_test_cat"].shape)
+            print(session_state["X_test_flat"].shape)
 
             # Initialize the metrics placeholders
             placeholders: dict = {
