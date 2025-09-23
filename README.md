@@ -10,7 +10,16 @@ This project is an interactive **Streamlit** application designed for learning a
 and visualize training results and predictions in real time. The app is intended for students and beginners who want to
 understand the basics of neural networks and how to build models for classification and regression problems. The
 interactive interface helps users intuitively understand MLP structures, activation functions, loss functions, and
-optimizers.
+optimizers. It allows users to:
+
+- Load and preprocess MNIST data.
+- Train a customizable MLP model with real-time metrics visualization.
+- Test the trained model on the test dataset.
+- Draw digits on a canvas and get instant predictions.
+
+The system is designed to help beginners and enthusiasts explore deep learning concepts in an interactive and visual
+way.
+
 
 **DATA DESCRIPTION**
 ---
@@ -32,13 +41,14 @@ column** structure.
 **FEATURES**
 ---
 
-- **Data Loading & Visualization**: Upload CSV datasets and view them in tables and scatter plots.
-- **Data Cleaning**: Automatically detect missing values and duplicate rows, with options to clean them.
-- **Data Splitting**: Split datasets into training and testing sets with customizable test size and random seed.
-- **Model Training**: Build and train an MLP model with configurable batch size and epochs.
-- **Training Monitoring**: Track loss, accuracy, precision, recall, and AUC metrics in real-time.
-- **Model Testing**: Predict using the trained model and display accuracy, R², MSE, MAE, and ROC curve.
-- **Decision Boundary Visualization**: Dynamically show the decision boundary on scatter plots.
+- **Data Loading & Preprocessing:** Load MNIST dataset and preprocess for MLP training (flattening and normalization).
+- **Model Training:** Train a Multi-Layer Perceptron with configurable epochs, batch size, and validation split.
+- **Real-time Training Metrics:** Monitor loss, accuracy, precision, recall, and AUC for both training and validation
+  sets.
+- **Model Testing:** Evaluate model performance with accuracy and R² score on the test set.
+- **Real-time Digit Recognition:** Draw digits on a canvas and get immediate predictions using the trained model.
+- **Visualization Tools:** Scatter plots and decision boundary visualization for 2D/3D datasets (for experiments beyond
+  MNIST).
 
 **WEB DEVELOPMENT**
 ---
