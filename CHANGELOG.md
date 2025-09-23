@@ -56,6 +56,7 @@
 
 ### Chore
 
+- update CHANGELOG.md to include recent documentation changes ([b26004b](https://github.com///commit/b26004b177718cb6b0aa4cca4f320d31c0c665e5))
 - update CHANGELOG.md to reflect recent changes ([6eca55d](https://github.com///commit/6eca55d160ff97c42e40abff06144e5ecf13b607))
 - replace keras import with tensorflow.keras in train.py ([6602a6c](https://github.com///commit/6602a6ca000ace1b7e9c9186a7b7b11aef0500b2))
 - replace keras import with tensorflow.keras in test.py ([0bc86f7](https://github.com///commit/0bc86f79acfb50f9823a002fc0ef2cfb6ec14b66))
@@ -78,6 +79,8 @@
 
 ### Docs
 
+- update README.zh-CN.md to enhance feature descriptions and improve clarity ([ae1da99](https://github.com///commit/ae1da99b3bde8b91b6e6ec957fd9261a2f883c09))
+- add features section to README.md detailing model capabilities ([adc737d](https://github.com///commit/adc737ded3caba67d37e1915a22118bacf78f480))
 - add quick start instructions to README.zh-CN.md ([4b9d267](https://github.com///commit/4b9d267eaad408d41e73e4a4fab2053706f269bf))
 - update README.md with quick start instructions and remove outdated features section ([9d337bc](https://github.com///commit/9d337bc436c6e0c51313246d7ee3088c2b164118))
 
