@@ -5,6 +5,7 @@
 
 ### Features
 
+- update title in home.py to reflect MLP for MNIST Digit Classification ([36e0f85](https://github.com///commit/36e0f8581827f34a7cc0d98d64589409f23af3d4))
 - update opencv-python version to 4.11.0.86 in requirements.txt ([26ba7ee](https://github.com///commit/26ba7ee597fc8ed6887676b5b160f99fa06b9f3d))
 - update numpy version to 1.26.4 in requirements.txt ([1f9a1a6](https://github.com///commit/1f9a1a67a911f20d96ccf1c5e5e90cdad4e83a64))
 - add numpy version 2.3.3 to requirements.txt ([9795775](https://github.com///commit/97957751475997fc622fed697283bf8ddb92a4d7))
@@ -55,6 +56,7 @@
 
 ### Chore
 
+- update CHANGELOG.md to reflect recent changes in requirements.txt ([bc26020](https://github.com///commit/bc26020e3dabceec9af69fa4bb756aa51efa68aa))
 - update CHANGELOG.md to reflect addition of numpy version 1.26.4 in requirements.txt ([aa2791d](https://github.com///commit/aa2791dff7882bcbeba2ce2e88e1f508bb383dfe))
 - update CHANGELOG.md to include addition of numpy version 2.3.3 in requirements.txt ([ff71af5](https://github.com///commit/ff71af5168ff5374aeb849d408dd4f3d4b51c9a8))
 - update CHANGELOG.md to reflect recent changes including deletion of runtime.txt and addition of Python version specification ([86e2c3a](https://github.com///commit/86e2c3ac39b46d26a019698e0379d6a827371432))
