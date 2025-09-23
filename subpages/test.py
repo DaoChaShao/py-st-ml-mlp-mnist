@@ -6,11 +6,11 @@
 # @File     :   test.py
 # @Desc     :
 
-from keras.models import load_model
 from os import path
 from sklearn.metrics import accuracy_score, r2_score
 from streamlit import (empty, sidebar, subheader, session_state, button,
                        spinner, rerun, columns, metric)
+from tensorflow.keras.models import load_model
 
 from subpages.train import MODEL_PATH
 from utils.helper import Timer
