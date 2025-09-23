@@ -48,6 +48,15 @@
 
 + 用户可上传 CSV 数据进行训练，要求遵循 特征列 + 标签列 结构。
 
+**快速开始**
+---
+
+1. 将本仓库克隆到本地计算机。
+2. 使用以下命令安装所需依赖项：`pip install -r requirements.txt`
+3. 使用以下命令运行应用程序：`streamlit run main.py`
+4. 你也可以通过点击以下链接在线体验该应用：  
+   [![Static Badge](https://img.shields.io/badge/Open%20in%20Streamlit-Daochashao-red?style=for-the-badge&logo=streamlit&labelColor=white)](https://mlp-mnist.streamlit.app/)
+
 **网页开发**
 ---
 
