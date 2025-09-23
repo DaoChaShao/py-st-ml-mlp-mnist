@@ -8,9 +8,10 @@
 
 from numpy import meshgrid, linspace, c_
 from pandas import DataFrame, concat
-from plotly.express import scatter, scatter_3d
+from plotly.express import scatter, scatter_3d, line
 from plotly.graph_objects import Contour
 from sklearn.decomposition import PCA
+from sklearn.metrics import roc_curve, auc
 from tensorflow.keras.callbacks import Callback
 from time import perf_counter
 from typing import override
@@ -158,6 +159,11 @@ def decision_boundary_adder(fig, model, X: DataFrame, pad_ratio: float = 0.05):
 
 
 class TFKerasLogger(Callback):
+    """ Custom Keras Callback to log training metrics and update Streamlit placeholders.
+    :param num_placeholders: a dictionary of Streamlit placeholders for metrics
+    :return: None
+    """
+
     def __init__(self, num_placeholders: dict = None):
         super().__init__()
         # The key name must match the callback logs
@@ -169,6 +175,11 @@ class TFKerasLogger(Callback):
 
     @override
     def on_epoch_end(self, epoch, logs=None):
+        """ At the end of each epoch, log the metrics and update the placeholders.
+        :param epoch: the current epoch number
+        :param logs: the logs dictionary containing the metrics
+        :return: None
+        """
         logs = logs or {}
         # Save the training history per epoch
         for key in self._history.keys():
@@ -183,4 +194,22 @@ class TFKerasLogger(Callback):
                     )
 
     def get_history(self):
+        """ Get the training history."""
         return self._history
+
+
+def binary_roc_plotter(y_true, y_pred):
+    """ Plot the ROC curve for a binary classification problem.
+    :param y_true: true labels (0 or 1)
+    :param y_pred: predicted probabilities for the positive class
+    :return: fig (ROC curve), area_under_curve (AUC value)
+    """
+    false_positive_rate, true_positive_rate, thresholds = roc_curve(y_true, y_pred)
+    area_under_the_roc_curve = auc(false_positive_rate, true_positive_rate)  # [0, 1]
+    fig = line(
+        x=false_positive_rate,
+        y=true_positive_rate,
+        text=[f"AUC = {area_under_the_roc_curve:.3f}"] * len(false_positive_rate),
+        labels={"x": "False Positive Rate", "y": "True Positive Rate"}
+    )
+    return fig, area_under_the_roc_curve
