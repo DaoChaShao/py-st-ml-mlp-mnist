@@ -10,4 +10,7 @@ from streamlit import title, expander, caption
 
 title("**Application Information**")
 with expander("About this application", expanded=True):
-    caption("-")
+    caption("- This platform is built with Streamlit for interactive digit recognition.")
+    caption("- It allows training, testing, and real-time prediction using MNIST.")
+    caption("- Designed for beginners and enthusiasts to explore deep learning visually.")
+    caption("- Provides visualization tools like scatter plots and decision boundaries for experiments.")
