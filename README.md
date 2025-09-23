@@ -23,20 +23,18 @@ way.
 
 **DATA DESCRIPTION**
 ---
-The application comes with built-in sample datasets suitable for supervised learning practice, including:
+The application comes with a built-in MNIST Handwritten Digits dataset, suitable for supervised learning practice:
 
-1. **Nonlinear Classification Dataset (2D)**
-    - Features: two-dimensional coordinates `X1` and `X2`
-    - Labels: classes `0` or `1`
-    - Purpose: practice MLP classification tasks and observe the model's ability to fit nonlinear boundaries.
+1. MNIST Handwritten Digits
 
-2. **Regression Dataset (optional)**
-    - Features: one or more input dimensions `X`
-    - Labels: continuous output `y`
-    - Purpose: practice MLP regression tasks and explore how the model fits functions.
++ Features: 28×28 grayscale images, flattened into 784-dimensional vectors (X_train_flat / X_test_flat)
++ Labels: digit classes 0–9 (y_train / y_test)
++ Purpose: practice MLP classification tasks, observe training dynamics, evaluate model performance, and visualize
+  predictions.
 
-Users can also upload their own CSV datasets for training, as long as the format follows **feature columns + label
-column** structure.
+2. Custom Dataset Upload (optional)
+
++ Users can upload their own CSV datasets for training, provided the structure follows feature columns + label column.
 
 **FEATURES**
 ---
