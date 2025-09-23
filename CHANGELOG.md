@@ -5,6 +5,10 @@
 
 ### Features
 
+- add test.py for model testing interface with accuracy and R² score metrics ([d0e366f](https://github.com///commit/d0e366f001eb943e894c8e695a2ba34ee6ac3f74))
+- add initial implementation of realtime.py with main function ([b5e82d2](https://github.com///commit/b5e82d2a936b9117df40e4b23e7b0457e51eb82f))
+- update layout to include Model Testing and Real-time Prediction pages ([53c209f](https://github.com///commit/53c209f806ca028fa6322351796eeed6f0d570e2))
+- enhance TFKerasLogger with detailed logging and add binary ROC curve plotting function ([8dfa2f9](https://github.com///commit/8dfa2f9a0c1caa3b046d2c804fdbf24da945e8d4))
 - implement model training interface with data preprocessing and metrics visualization ([a53e4f1](https://github.com///commit/a53e4f19d5747d8aa5ac2968e6f0c58467391007))
 - add initial train.py file with metadata and description ([348a207](https://github.com///commit/348a207eead29ea1b9ce91aff9d508c2b2d8cfba))
 - implement data preparation settings and Mnist data loading functionality ([95c9023](https://github.com///commit/95c90231af561a9add46684911e699634cad58a3))
@@ -31,9 +35,11 @@
 
 ### Bug Fixes
 
+- remove redundant y_test_cat from session_state in train.py ([97e713f](https://github.com///commit/97e713f8b6d7f4abb023e5df50fc797ac3d16838))
 - downgrade numpy version to 1.26.4 for compatibility ([4773d72](https://github.com///commit/4773d729deb1631094565fdf8192ebd2c19a556f))
 
 ### Chore
 
+- update CHANGELOG.md to reflect recent changes and feature additions ([b4cfe51](https://github.com///commit/b4cfe51d84812f41c4a99b1f1b00de2dac7d1163))
 - update CHANGELOG.md with recent feature additions and bug fixes ([4e867f4](https://github.com///commit/4e867f4fc4c53927525dcf85bc322cacd81aabee))
 
