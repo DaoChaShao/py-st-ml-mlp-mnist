@@ -44,12 +44,14 @@
 
 ### Bug Fixes
 
+- update requirements.txt to replace specific TensorFlow packages with a unified tensorflow package ([27a1b55](https://github.com///commit/27a1b55d0870c7bb5db22238333f4623fca8a495))
 - remove y_test_cat logging from train.py ([b5fc7a0](https://github.com///commit/b5fc7a0a25d2232a30c3b23e61f23acfb668bf95))
 - remove redundant y_test_cat from session_state in train.py ([97e713f](https://github.com///commit/97e713f8b6d7f4abb023e5df50fc797ac3d16838))
 - downgrade numpy version to 1.26.4 for compatibility ([4773d72](https://github.com///commit/4773d729deb1631094565fdf8192ebd2c19a556f))
 
 ### Chore
 
+- update CHANGELOG.md to include recent enhancements to README files ([4f97f53](https://github.com///commit/4f97f53001461f5b31f0c5a507220fafa35fcb1b))
 - update CHANGELOG.md to include recent enhancements to README files and application descriptions ([721e409](https://github.com///commit/721e409fb2a8c5da518a82da3e3c4100358f2288))
 - update CHANGELOG.md to include recent feature additions and bug fixes ([a242808](https://github.com///commit/a242808907cd7fe068467a74e1dce85a26fc1451))
 - update CHANGELOG.md to reflect recent changes and feature additions ([c2a1cd8](https://github.com///commit/c2a1cd80c702f7c3cc890ea47f30eeda533c5eac))
