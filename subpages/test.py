@@ -6,6 +6,7 @@
 # @File     :   test.py
 # @Desc     :
 
+from keras.models import load_model
 from os import path
 from sklearn.metrics import accuracy_score, r2_score
 from streamlit import (empty, sidebar, subheader, session_state, button,
@@ -23,9 +24,6 @@ for session in pre_sessions:
     session_state.setdefault(session, None)
 preprocess_sessions: list[str] = ["X_train_flat", "X_test_flat", "y_train_cat"]
 for session in preprocess_sessions:
-    session_state.setdefault(session, None)
-model_sessions: list[str] = ["model"]
-for session in model_sessions:
     session_state.setdefault(session, None)
 test_sessions: list[str] = ["tTimer", "y_pred"]
 for session in test_sessions:
@@ -49,7 +47,9 @@ with sidebar:
                     if button("Test the Model", type="primary", width="stretch"):
                         with spinner("Testing the Model...", show_time=True, width="stretch"):
                             with Timer("Model Testing") as session_state["tTimer"]:
-                                y_pred_probabilities = session_state["model"].predict(session_state["X_test_flat"])
+                                model = load_model(MODEL_PATH)
+                                # Make predictions
+                                y_pred_probabilities = model.predict(session_state["X_test_flat"])
                                 session_state["y_pred"] = y_pred_probabilities.argmax(axis=1)
 
                         rerun()
