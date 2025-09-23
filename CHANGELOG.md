@@ -5,6 +5,8 @@
 
 ### Features
 
+- enhance Chinese README.md with detailed descriptions of the built-in MNIST dataset for supervised learning ([2d08894](https://github.com///commit/2d08894d078354a09b15af47afa52ca648deeb24))
+- update README.md to include detailed description of the built-in MNIST dataset for supervised learning ([ce48799](https://github.com///commit/ce48799a77cc86d0b453155b022d551dc5cbbcb8))
 - enhance Chinese README.md with detailed descriptions of application functionalities and features ([f0f7749](https://github.com///commit/f0f77498c31a39ff1762851571d6ac7da25c1e6d))
 - enhance README.md with detailed descriptions of application functionalities and features ([10d799b](https://github.com///commit/10d799bf523095738be8260e661860d8fc0e6899))
 - update introduction in home.py with detailed descriptions of functionalities ([40af17a](https://github.com///commit/40af17a77b82818b9d223557032e2ec83450bbb6))
@@ -48,6 +50,7 @@
 
 ### Chore
 
+- update CHANGELOG.md to include recent enhancements to README files and application descriptions ([721e409](https://github.com///commit/721e409fb2a8c5da518a82da3e3c4100358f2288))
 - update CHANGELOG.md to include recent feature additions and bug fixes ([a242808](https://github.com///commit/a242808907cd7fe068467a74e1dce85a26fc1451))
 - update CHANGELOG.md to reflect recent changes and feature additions ([c2a1cd8](https://github.com///commit/c2a1cd80c702f7c3cc890ea47f30eeda533c5eac))
 - update CHANGELOG.md with recent feature additions and bug fixes ([4e867f4](https://github.com///commit/4e867f4fc4c53927525dcf85bc322cacd81aabee))
