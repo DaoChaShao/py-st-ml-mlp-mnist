@@ -11,7 +11,7 @@ from streamlit import title, expander, caption, empty
 empty_message = empty()
 empty_message.info("Please check the details at the different pages of core functions.")
 
-title("ML - Make Moons")
+title("Mutiple Layer Perceptron (MLP) for MNIST Digit Classification")
 with expander("**INTRODUCTION**", expanded=True):
     caption("+ 📂 Load MNIST dataset and preprocess for model training.")
     caption("+ 🧠 Train a Multi-Layer Perceptron with custom epochs and batch size.")
