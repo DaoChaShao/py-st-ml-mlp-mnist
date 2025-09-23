@@ -5,6 +5,10 @@
 
 ### Features
 
+- enhance Chinese README.md with detailed descriptions of application functionalities and features ([f0f7749](https://github.com///commit/f0f77498c31a39ff1762851571d6ac7da25c1e6d))
+- enhance README.md with detailed descriptions of application functionalities and features ([10d799b](https://github.com///commit/10d799bf523095738be8260e661860d8fc0e6899))
+- update introduction in home.py with detailed descriptions of functionalities ([40af17a](https://github.com///commit/40af17a77b82818b9d223557032e2ec83450bbb6))
+- enhance application information in about.py with detailed descriptions ([4b753be](https://github.com///commit/4b753be30ca3a37ea44177a4fe2ab2fdd6aa5f6f))
 - load model from file for predictions in test.py ([362d233](https://github.com///commit/362d23386d2b56b738d5a1ab92e240359d9701ad))
 - add streamlit-drawable-canvas and opencv-python to requirements.txt ([c0ab3e6](https://github.com///commit/c0ab3e6a354b1b4894b1fd544c991f7a32d6258a))
 - implement real-time digit recognition functionality in realtime.py ([b059c71](https://github.com///commit/b059c71989f16a630da1c37db027c80f7e43c7ec))
@@ -44,6 +48,7 @@
 
 ### Chore
 
+- update CHANGELOG.md to include recent feature additions and bug fixes ([a242808](https://github.com///commit/a242808907cd7fe068467a74e1dce85a26fc1451))
 - update CHANGELOG.md to reflect recent changes and feature additions ([c2a1cd8](https://github.com///commit/c2a1cd80c702f7c3cc890ea47f30eeda533c5eac))
 - update CHANGELOG.md with recent feature additions and bug fixes ([4e867f4](https://github.com///commit/4e867f4fc4c53927525dcf85bc322cacd81aabee))
 
