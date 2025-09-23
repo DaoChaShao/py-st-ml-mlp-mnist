@@ -6,13 +6,13 @@
 # @File     :   train.py
 # @Desc     :
 
-from keras.models import Sequential
-from keras.layers import Dense, Input
 from os import path, remove
 from tensorflow.keras import metrics
 from tensorflow.keras.utils import to_categorical
 from streamlit import (empty, sidebar, subheader, session_state, button,
                        spinner, rerun, number_input, caption, columns)
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Input
 
 from utils.helper import Timer, TFKerasLogger
 
@@ -55,7 +55,7 @@ with sidebar:
                 f"Train Data is ready with {session_state['X_train'].shape}. Please preprocess the data first."
             )
 
-            if button("preprocess Train & Test Data", type="primary", width="stretch"):
+            if button("Preprocess Train & Test Data", type="primary", width="stretch"):
                 with spinner("Preprocessing Train & Test Data...", show_time=True, width="stretch"):
                     with Timer("Train & Test Data Preprocessing") as session_state["proTimer"]:
                         # Flatten the 28x28 images into 784-dimensional vectors
