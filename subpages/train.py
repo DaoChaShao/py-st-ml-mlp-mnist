@@ -34,7 +34,7 @@ placeholder_auc_val = col_auc_valid.empty()
 pre_sessions: list[str] = ["X_train", "X_test", "y_train", "y_test"]
 for session in pre_sessions:
     session_state.setdefault(session, None)
-preprocess_sessions: list[str] = ["X_train_flat", "X_test_flat", "y_train_cat", "y_train_cat", "proTimer"]
+preprocess_sessions: list[str] = ["X_train_flat", "X_test_flat", "y_train_cat"]
 for session in preprocess_sessions:
     session_state.setdefault(session, None)
 model_sessions: list[str] = ["model", "histories", "mTimer"]
@@ -68,7 +68,6 @@ with sidebar:
 
                         # One-hot encode the labels
                         session_state["y_train_cat"] = to_categorical(session_state["y_train"], num_classes=10)
-                        session_state["y_test_cat"] = to_categorical(session_state["y_test"], num_classes=10)
                 rerun()
         else:
             print(type(session_state["X_train_flat"]), type(session_state["y_train_cat"]))
