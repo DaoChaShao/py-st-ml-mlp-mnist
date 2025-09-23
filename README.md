@@ -36,6 +36,18 @@ The application comes with a built-in MNIST Handwritten Digits dataset, suitable
 
 + Users can upload their own CSV datasets for training, provided the structure follows feature columns + label column.
 
+**FEATURES**
+---
+
+- **Data Loading & Preprocessing:** Load MNIST dataset and preprocess for MLP training (flattening and normalization).
+- **Model Training:** Train a Multi-Layer Perceptron with configurable epochs, batch size, and validation split.
+- **Real-time Training Metrics:** Monitor loss, accuracy, precision, recall, and AUC for both training and validation
+  sets.
+- **Model Testing:** Evaluate model performance with accuracy and R² score on the test set.
+- **Real-time Digit Recognition:** Draw digits on a canvas and get immediate predictions using the trained model.
+- **Visualization Tools:** Scatter plots and decision boundary visualization for 2D/3D datasets (for experiments beyond
+  MNIST).
+
 **QUICK START**
 ---
 
