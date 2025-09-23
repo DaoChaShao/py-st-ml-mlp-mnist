@@ -5,6 +5,9 @@
 
 ### Features
 
+- load model from file for predictions in test.py ([362d233](https://github.com///commit/362d23386d2b56b738d5a1ab92e240359d9701ad))
+- add streamlit-drawable-canvas and opencv-python to requirements.txt ([c0ab3e6](https://github.com///commit/c0ab3e6a354b1b4894b1fd544c991f7a32d6258a))
+- implement real-time digit recognition functionality in realtime.py ([b059c71](https://github.com///commit/b059c71989f16a630da1c37db027c80f7e43c7ec))
 - add test.py for model testing interface with accuracy and R² score metrics ([d0e366f](https://github.com///commit/d0e366f001eb943e894c8e695a2ba34ee6ac3f74))
 - add initial implementation of realtime.py with main function ([b5e82d2](https://github.com///commit/b5e82d2a936b9117df40e4b23e7b0457e51eb82f))
 - update layout to include Model Testing and Real-time Prediction pages ([53c209f](https://github.com///commit/53c209f806ca028fa6322351796eeed6f0d570e2))
@@ -35,11 +38,12 @@
 
 ### Bug Fixes
 
+- remove y_test_cat logging from train.py ([b5fc7a0](https://github.com///commit/b5fc7a0a25d2232a30c3b23e61f23acfb668bf95))
 - remove redundant y_test_cat from session_state in train.py ([97e713f](https://github.com///commit/97e713f8b6d7f4abb023e5df50fc797ac3d16838))
 - downgrade numpy version to 1.26.4 for compatibility ([4773d72](https://github.com///commit/4773d729deb1631094565fdf8192ebd2c19a556f))
 
 ### Chore
 
-- update CHANGELOG.md to reflect recent changes and feature additions ([b4cfe51](https://github.com///commit/b4cfe51d84812f41c4a99b1f1b00de2dac7d1163))
+- update CHANGELOG.md to reflect recent changes and feature additions ([c2a1cd8](https://github.com///commit/c2a1cd80c702f7c3cc890ea47f30eeda533c5eac))
 - update CHANGELOG.md with recent feature additions and bug fixes ([4e867f4](https://github.com///commit/4e867f4fc4c53927525dcf85bc322cacd81aabee))
 
